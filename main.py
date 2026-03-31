@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def homepage():
-    return "FakePinterest - Meu quinto site no ar"
+    return "FakePinterest - .:."
 
 if __name__ == "__main__":
     app.run(debug=True)
